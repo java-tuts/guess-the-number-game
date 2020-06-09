@@ -15,8 +15,8 @@ public class GameImpl implements Game {
     private int remainingGuesses;
     private boolean validNumberRange = true;
 
-    // Constructor based DI
-    public GameImpl(NumberGenerator numberGenerator) {
+    // setter based DI
+    public void setNumberGenerator(NumberGenerator numberGenerator) {
         this.numberGenerator = numberGenerator;
     }
 

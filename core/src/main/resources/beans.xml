@@ -7,7 +7,11 @@
      <bean id="numberGenerator" class="com.vighnesh153.NumberGeneratorImpl" />
 
      <bean id="game" class="com.vighnesh153.GameImpl">
-          <constructor-arg ref="numberGenerator"/>
+          <!--
+               name -> property name
+               ref  -> id of the bean
+          -->
+          <property name="numberGenerator" ref="numberGenerator" />
      </bean>
 
 </beans>
