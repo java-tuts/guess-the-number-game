@@ -7,10 +7,6 @@
            http://www.springframework.org/schema/context
            http://www.springframework.org/schema/context/spring-context.xsd">
 
-     <context:annotation-config />
-     <bean id="numberGenerator" class="com.vighnesh153.NumberGeneratorImpl" />
-
-     <bean id="game" class="com.vighnesh153.GameImpl" />
-
+     <context:component-scan base-package="com.vighnesh153"/>
 
 </beans>
