@@ -1,6 +1,6 @@
 package com.vighnesh153.console;
 
-import com.vighnesh153.AppConfig;
+import com.vighnesh153.config.AppConfig;
 import com.vighnesh153.MessageGenerator;
 import com.vighnesh153.NumberGenerator;
 import org.slf4j.Logger;
